@@ -19,11 +19,11 @@ Jinja2==3.0.3
 Js2Py==0.71
 MarkupSafe==2.0.1
 packaging==21.3
-pipwin==0.5.1
+pipwin==0.5.1 ;platform_system == "Windows"
 PyAudio==0.2.11 
 pyjsparser==2.7.1
 pyparsing==3.0.6
-pypiwin32==223
+pypiwin32==223 ;platform_system == "Windows"
 PyPrind==2.11.3
 PyQt5==5.15.4
 pyqt5-plugins==5.15.4.2.2
